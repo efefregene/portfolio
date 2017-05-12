@@ -1,0 +1,150 @@
+header, a, #home, #home-text, ul, li{
+	color: #383838;
+}
+
+
+.brand-font {
+  font-family: 'Pacifico', serif;
+} 
+
+#navi-bar{
+	margin-bottom: 0;
+}
+
+/*.navbar, .transparent{
+	background: rgba(0,0,0,0,4);
+
+    -webkit-transition-delay: 0.1s;
+    	-ms-transition-delay: 0.1s;
+    		transition-delay: 0.1s;
+}*/
+.nav-font{
+	font-family: 'Lato', san-serif;
+	font-size: 18px;
+}
+.nav-font a:hover{
+	-webkit-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+          transform: scale(1.3);
+
+}
+h1,h2,h3,h4,h5,h6,p{
+	font-family: 'Lato', serif;
+}
+
+p{
+	font-size:  135%;
+}
+
+#page1{
+	padding-right: 0;
+}
+
+#home-text{
+	padding-top: 51px;
+}
+.type-style{
+	font-family: Open Sans, serif;
+}
+.vertical {
+  min-height: 92%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 92vh; /* These two lines are counted as one :-)       */
+  padding-bottom: 0;
+  margin-bottom: 0;  
+}
+
+.center{
+  display: flex;
+  align-items: center;
+}
+
+.down-button-div{
+	padding-bottom: 0;
+}
+#down-button-div1, #down-button-div3{
+	background-color: #F0F0F0;
+}
+
+.menu-down-button{
+	border-radius: 50%;
+	border: 1px solid #A0A0A0;
+	background-color: #A0A0A0;
+	display: flex; 
+	justify-content: center;
+	margin: 0 auto;
+	width: 35px;
+	height: 35px;
+	color: black;
+}
+.menu-down-button:hover{
+	-webkit-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+          transform: scale(1.3);
+          text-decoration: none;
+          color: black;
+}
+#about{
+	padding-top: 25px;
+}
+
+#projects{
+	padding-top: 20px;
+	height: 100%;
+	background-color: #F0F0F0;
+
+}
+#projects-height, #about-div{
+	min-height: 88vh;
+}
+
+.fix-img{
+  width: auto;
+  height: 290px;
+  max-height: 290px !important;
+}
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+}
+.caption-shade{
+	background-color: #A0A0A0; 
+}
+.caption-font{
+	font-size: 120%;
+}
+#khaled-text{
+	display: none;
+}
+
+#quiz-text{
+	display: none;
+}
+.a-class{
+	color: #383838 !important;
+}
+/*
+#copyright{
+	color: black;
+	font-size: 135%;
+}
+*/
+footer{
+	padding-bottom: 5%;
+}
+a:visited, a:hover, a:active{
+	text-decoration: none;
+	color: inherit;
+}
+.footer-font, .footer-font:visited{
+	color: black;
+	font-size: 135%;
+	font-family: 'Lato', san-serif;
+}
+
+.footer-font a:hover{
+	font-size: 135%;
+	-webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
