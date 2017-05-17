@@ -45,10 +45,22 @@ p{
 	margin-left: 0;
 	padding-right: 0;
 	padding-left: 0;
+	background: url("../assets/img/jesus-kiteque1.JPG") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 #home-text{
 	padding-top: 51px;
+	background: transparent;
+	/*background: url(../assets/img/jesus-kiteque1.JPG) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;*/
+
 }
 .type-style{
 	font-family: Open Sans, serif; 
@@ -70,11 +82,11 @@ p{
     
 }
 #down-button-div1, #down-button-div3{
-	background-color: #F0F0F0;
-	background: -webkit-linear-gradient(#F0F0F0 50%, #FFFFFF 50%); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#F0F0F0 50%, #FFFFFF 50%); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#F0F0F0 50%, #FFFFFF 50%); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#F0F0F0 50%, #FFFFFF 50%); /* Standard syntax */
+	background: transparent;
+	background: -webkit-linear-gradient(transparent 50%, #FFFFFF 50%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(transparent 50%, #FFFFFF 50%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(transparent 50%, #FFFFFF 50%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(transparent 50%, #FFFFFF 50%); /* Standard syntax */
 }
 #down-button-div2{
 	background-color: #FFFFFF;
@@ -99,6 +111,8 @@ p{
 	-webkit-transform: scale(1.3);
       -ms-transform: scale(1.3);
           transform: scale(1.3);
+          -webkit-transition-duration: 0.5s; /* Safari */
+    		transition-duration: 0.5s;
           text-decoration: none;
           color: black;
 }
@@ -131,10 +145,10 @@ p{
     right: auto;
 }*/
 .caption-shade{
-	background-color: #A0A0A0; 
+	background-color: #C0C0C0; 
 }
 .caption-font a{
-	color: #FFFFFF;
+	color: #FFFFFF !important;
 }
 .caption-font{
 	padding: 50px;
@@ -152,9 +166,9 @@ p{
 #quiz-text{
 	display: none;
 }
-.a-class{
+/*.a-class{
 	color: #FFFFFF !important;
-}
+}*/
 /*
 #copyright{
 	color: black;
@@ -170,7 +184,7 @@ footer{
 	width: 100%;
 }
 a:visited, a:focus, a:hover, a:active{
-	outline: transparent;
+	/*outline: transparent;*/
 	text-decoration: none;
 	color: inherit;
 }
@@ -179,12 +193,8 @@ a:visited, a:focus, a:hover, a:active{
 	font-size: 140%;
 	font-family: 'Lato', san-serif;
 }
-
-.footer-font a:hover{
-	font-size: 135%;
-	-webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-          transform: scale(1.1);
+a.footer-font:hover{
+	color: #A0A0A0;
 }
 /*@media (min-width: 992px){
 	#copyright-position{
