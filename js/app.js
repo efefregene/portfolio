@@ -60,7 +60,6 @@ $(document).ready(function(){
 		margin: 10,
 		autoplayTimeout: 4000,
 		autoplayHoverPause: true,
-		mouseDrag: true,
 		touchDrag: true,
 		singleItem: true,
 		responsive:{

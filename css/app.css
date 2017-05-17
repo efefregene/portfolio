@@ -136,8 +136,8 @@ p{
 
 .fix-img{
   width: auto;
-  height: 250px;
-  max-height: 250px;
+  height: 335px;
+  max-height: 335px;
 }
 /*.carousel-caption {
     position: absolute;
@@ -153,8 +153,8 @@ p{
 .caption-font{
 	padding: 50px;
     position: absolute;
-  	height: 250px;
-  	max-height: 250px;
+  	height: 335px;
+  	max-height: 335px;
 }
 .owl-theme .owl-nav [class*=owl-]{
 	background: #585858;
